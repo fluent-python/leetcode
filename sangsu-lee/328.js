@@ -14,7 +14,7 @@ function ListNode(val) {
 }
 
 let oddEvenList = function(head) {
-    if (head.next == null) return;
+    if (head == null || head.next == null) return head;
     let oddHead = head;
     let evenHead = head.next;
     
@@ -27,31 +27,38 @@ let oddEvenList = function(head) {
         }
         if (cur2.next.next == null) {
             cur1.next = cur2.next;
-            oddTail = cur1.next
+            cur2.next = null;
+            oddTail = cur1.next;
             break;
         }
         cur1.next = cur2.next;
         cur2.next = cur2.next.next;
         oddTail = cur1.next;
+        cur1 = cur1.next;
+        cur2 = cur2.next;
     }
     oddTail.next = evenHead;
+    return head;
 };
 
 let head = new ListNode(1);
 let cur = head;
-for (let i = 2; i < 6; i++) {
+let nodeLen = 2;
+
+for (let i = 2; i < nodeLen + 1; i++) {
     cur.next = new ListNode(i);
     cur = cur.next;
 }
 
-let printNodes = function(head) {
+
+let printNodes = function(head, maxcnt) {
     cur = head;
-    while (cur) {
+    while (cur && maxcnt--) {
         console.log(cur.val)
         cur = cur.next;
     }
 }
-printNodes(head);
+//printNodes(head);
 oddEvenList(head);
-printNodes(head);
+printNodes(head, 5);
 
