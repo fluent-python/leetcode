@@ -2,49 +2,21 @@
  * @param {number[][]} points
  * @return {boolean}
  */
-String.prototype.format = function () {
-  var i = 0, args = arguments;
-  return this.replace(/{}/g, function () {
-    return typeof args[i] != 'undefined' ? args[i++] : '';
-  });
-};
-
-let areDistinctPoints = function(points) {
-    let distinctarr = [];
-    points.map(point => {
-        distinctarr.push(point[0] + point[1]/1000);
-    })
-    console.log(distinctarr);
-    let set = new Set(distinctarr);
-    console.log(set);
-    console.log("set.size: {}".format(set.size));
-    console.log("arr.size: {}".format(points.length));
-    if (set.size == points.length) {
-        return true;
-    }
-    return false;
-}
-
-let isInSameLine = function(points) {
-    for (let point of points) {
-        if (point[0] != point[1]) {
-            return false;
-        }
-    }
-    return true;
-}
-
-
 let isBoomerang = function(points) {
-    xs = []; ys = []
-    points.map(point => {
-        xs.push(point[0]); ys.push(point[1]);
-    });
-    if (!isInSameLine(points) && areDistinctPoints(points)) {
-        return true;
-    } else {
-        return false;
-    }
+    let ps = points
+    let [x1, x2, x3, y1, y2, y3] = [ps[0][0], ps[1][0], ps[2][0],
+                                    ps[0][1], ps[1][1], ps[2][1]]
+    if ((x1 == x2 && y1 == y2)
+     || (x2 == x3 && y2 == y3)
+     || (x3 == x1 && y3 == y1)) return false;
+    let slope1 = (x1 - x2) / (y1 - y2)
+    let slope2 = (x2 - x3) / (y2 - y3)
+    let slope3 = (x3 - x1) / (y3 - y1)
+    
+    if (slope1 == slope2 || slope2 == slope3 || slope1 == slope3) return false;
+    return true;
+
+    console.log(slope1, slope2, slope3);
 };
-console.log(isBoomerang([[0,0],[0,2],[2,1]]));
-console.log(isBoomerang([[0,0],[2,1],[2,1]]));
+
+console.log(isBoomerang([[0,1],[0,1],[2,1]]));
