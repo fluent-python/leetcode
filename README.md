@@ -16,4 +16,6 @@
 - **859. Buddy Strings**
 - **1037. Valid Boomerang**
 - **1089. Duplicate zeros**
-- 
+- **812. Largest Triangle Area**
+- **290. Word Pattern**
+
