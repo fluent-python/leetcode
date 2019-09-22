@@ -20,6 +20,6 @@ if __name__ =='__main__':
         f.write("problems and link\n")
         for i in sorted_list:
             link = "https://leetcode.com/problems/" + i[1][1:].lower().replace(" ","-")
-            f.write("- **[" + str(i[0])+"."+i[1]+ "]" +"(" + link +")\n")
+            f.write("- [" + str(i[0])+"."+i[1]+ "]" +"(" + link +")\n")
 
 
