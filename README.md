@@ -22,6 +22,7 @@ problems and link
 - [690. Employee Importance](https://leetcode.com/problems/employee-importance)
 - [709. To Lower Case](https://leetcode.com/problems/to-lower-case)
 - [771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones)
+- [804. Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words)
 - [812. Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area)
 - [859. Buddy Strings](https://leetcode.com/problems/buddy-strings)
 - [883. Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes)
@@ -33,4 +34,5 @@ problems and link
 - [1029. Two City Scheduling](https://leetcode.com/problems/two-city-scheduling)
 - [1037. Valid Boomerang](https://leetcode.com/problems/valid-boomerang)
 - [1089. Duplicate Zeros](https://leetcode.com/problems/duplicate-zeros)
+- [1109. Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings)
 - [1122. Relative Sort Array](https://leetcode.com/problems/relative-sort-array)
