@@ -17,7 +17,6 @@ if __name__ =='__main__':
 
     with open("./README.MD","w") as f:
         f.write("# Leetcode\n")
-        f.write("problems and link\n")
         f.write("solved problems : {} \n".format(len(sorted_list)))
         for i in sorted_list:
             link = "https://leetcode.com/problems/" + i[1][1:].lower().replace(" ","-")
