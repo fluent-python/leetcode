@@ -1,6 +1,6 @@
 # Leetcode
 problems and link
-- [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)
+solved problems : 57- [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)
 - [38. Count and Say](https://leetcode.com/problems/count-and-say)
 - [46. Permutations](https://leetcode.com/problems/permutations)
 - [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs)
@@ -29,10 +29,12 @@ problems and link
 - [695. Max Area of Island](https://leetcode.com/problems/max-area-of-island)
 - [709. To Lower Case](https://leetcode.com/problems/to-lower-case)
 - [717. 1-bit and 2-bit Characters](https://leetcode.com/problems/1-bit-and-2-bit-characters)
+- [720. Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary)
 - [748. Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word)
 - [771. Jewels and Stones](https://leetcode.com/problems/jewels-and-stones)
 - [804. Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words)
 - [812. Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area)
+- [824. Goat Latin](https://leetcode.com/problems/goat-latin)
 - [846. Hand of Straights](https://leetcode.com/problems/hand-of-straights)
 - [852. Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array)
 - [859. Buddy Strings](https://leetcode.com/problems/buddy-strings)
@@ -53,4 +55,5 @@ problems and link
 - [1109. Corporate Flight Bookings](https://leetcode.com/problems/corporate-flight-bookings)
 - [1122. Relative Sort Array](https://leetcode.com/problems/relative-sort-array)
 - [1128. Number of Equivalent Domino Pairs](https://leetcode.com/problems/number-of-equivalent-domino-pairs)
+- [1137. N-th Tribonacci Number](https://leetcode.com/problems/n-th-tribonacci-number)
 - [1184. Distance Between Bus Stops](https://leetcode.com/problems/distance-between-bus-stops)
