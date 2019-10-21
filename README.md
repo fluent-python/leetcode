@@ -1,5 +1,6 @@
 # Leetcode
-solved problems : 57 
+solved problems : 60 
+- [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer)
 - [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)
 - [38. Count and Say](https://leetcode.com/problems/count-and-say)
 - [46. Permutations](https://leetcode.com/problems/permutations)
@@ -8,6 +9,8 @@ solved problems : 57
 - [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal)
 - [118. Pascal's Triangle](https://leetcode.com/problems/pascal's-triangle)
 - [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock)
+- [136. Single Number](https://leetcode.com/problems/single-number)
+- [169. Majority Element](https://leetcode.com/problems/majority-element)
 - [202. Happy Number](https://leetcode.com/problems/happy-number)
 - [231. Power of Two](https://leetcode.com/problems/power-of-two)
 - [242. Valid Anagram](https://leetcode.com/problems/valid-anagram)
