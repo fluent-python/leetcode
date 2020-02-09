@@ -14,3 +14,5 @@ const numDecodings = (s) => {
   }
   return dp[s.length];
 }
+
+// "12321" 이해가 잘 안되네 ...
