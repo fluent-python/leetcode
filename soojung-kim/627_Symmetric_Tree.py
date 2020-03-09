@@ -15,7 +15,7 @@ class Solution:
     def check(self, lnode, rnode):
         if lnode and rnode:
             f1 = lnode.val == rnode.val
-            f2 = self.check(lnode.left, rnode.rigth)
+            f2 = self.check(lnode.left, rnode.right)
             f3 = self.check(lnode.right, rnode.left)
             return f1 and f2 and f3
         return (not lnode) and (not rnode)
